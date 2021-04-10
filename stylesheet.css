@@ -104,7 +104,7 @@ header {
 
 .main_wrap{
     height: 100vh;
-    background-image: url(fes_top.jpg);
+    background-image: url(fes_top.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
