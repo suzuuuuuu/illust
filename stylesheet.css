@@ -73,6 +73,7 @@ a{
         position: fixed;
         width: 100vw;
         height: 100vh;
+        z-index: 1;
     }
     
     
@@ -133,15 +134,17 @@ a{
         overflow: auto;
         color: white;
         background-color: rgb(255, 255, 255);
+        font-size: 18px;
     }
 
     .sort_btn {
         display: inline-block;
         text-align: center;
-        width: 75px;
+        width: 70px;
         background-color: rgb(172, 172, 172);/*色仮置き 最終的に白*/
-        padding: 10px 10px 3.5px 10px;
-        margin-left: 5px;
+        padding: 8px 7px 8px 7px;
+        margin-left: 3px;
+        font-size: 12px;
     }
     .profiles{
         display: none;
