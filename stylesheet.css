@@ -303,6 +303,9 @@ body{
     .side_menue {
         writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
+        -moz-writing-mode: vertical-rl;
+        -ms-writing-mode: vertical-rl;
+        -webkit-writing-mode: vertical-rl;
         text-orientation: sideways;
         white-space: nowrap;
         background-color: black;
