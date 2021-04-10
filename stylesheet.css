@@ -133,7 +133,7 @@ header {
     margin-left: 5px;
 }
 
-@media(max-width:670px){
+@media(max-width:899px){
     .illust_heading {
         margin-left:70px;/* 右寄せ 仮数値*/
     }
@@ -152,7 +152,7 @@ header {
     }
 }
 
-@media(min-width:671px){
+@media(min-width:900px){
     .illust_heading {
         margin-left: 27.5%;/* 右寄せ 仮数値*/
     }
