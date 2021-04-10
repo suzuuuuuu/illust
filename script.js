@@ -1,10 +1,18 @@
 $(function(){
+
+    
     $('#plof-show').click(function() {
         $('#plof-modal').fadeIn();
         $('#plof-show').addClass('open');
     });
 
     $('#close').click(function() {
+        if($('#plof-show').hasClass('open')){
+        $('.plofiles').removeClass('open');
+        $('#plof-modal').fadeOut();
+        }
+    });
+    $('#plof-modal').click(function() {
         if($('#plof-show').hasClass('open')){
         $('.plofiles').removeClass('open');
         $('#plof-modal').fadeOut();
