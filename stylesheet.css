@@ -8,6 +8,8 @@ a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
+
 @media screen and (max-width:749px){
     .main_wrap{
         height: 500px;
@@ -17,11 +19,42 @@ a{
     }
     .illust_heading {
         margin-left:35px;/* 右寄せ 仮数値*/
+        align-items: flex-end;
+        display: flex;
+        margin-bottom: 10px;
+        z-index: 5;
     }
+    .sort_btn {
+        text-align: center;
+        width: 15%;
+        background-color: rgb(255, 255, 255);/*色仮置き 最終的に白*/
+        padding: 8px 7px 8px 7px;
+        margin-left: 5px;
+        font-size: 12px;
+        color: black;
+        z-index: 5;
+        cursor: pointer;
+    }
+
+    .move{
+        position: relative;
+        bottom: -100px;
+        transition: all 1s;
+        opacity: 1;
+    }
+
+    .active {
+        background-color: black;
+        color: white;
+    }
+    
+
     .illusts_wrap{
         margin-left: 35px;
-         background-color: rgb(255, 255, 255);
-    }    .profiles ul{
+        background-color: rgb(255, 255, 255);
+    }   
+    
+    .profiles ul{
         width: 95%;
     }
     .req_about{
@@ -48,14 +81,14 @@ a{
         z-index: 10;
     }
     .contact_btn {
-        margin-right: 20px;
+        margin-right: 7px;
         border-bottom:2px solid;
         border-right:2px solid;
         padding: 2px 6px;
     }
 
     .req {
-        margin-right: 20px;
+        margin-right: 10px;
         cursor: pointer;
     }
 
@@ -71,7 +104,7 @@ a{
         position: fixed;
         width: 100vw;
         height: 100vh;
-        z-index: 1;
+        z-index: 0;
     }
     
     
@@ -135,15 +168,7 @@ a{
         font-size: 18px;
     }
 
-    .sort_btn {
-        display: inline-block;
-        text-align: center;
-        width: 15%;
-        background-color: rgb(172, 172, 172);/*色仮置き 最終的に白*/
-        padding: 8px 7px 8px 7px;
-        margin-left: 3px;
-        font-size: 12px;
-    }
+   
     .profiles{
         display: none;
         cursor: pointer;
@@ -223,6 +248,9 @@ body{
     }
     .illust_heading {
         margin-left: 27.5%;/* 右寄せ 仮数値*/
+        align-items: flex-end;
+        display: flex;
+        margin-bottom: 10px;
     }
     .illusts_wrap{
         margin-left:27.5%;/* 右寄せ 仮数値*/
@@ -290,6 +318,7 @@ body{
         position: fixed;
         width: 100vw;
         height: 100vh;
+        z-index: 0;
     }
     /*
     .req_about span{
@@ -333,10 +362,8 @@ body{
     cursor: pointer;
     }
 
-
-
     .illust_heading h2{
-        padding: 10px 10px 0 10px;
+        padding: 10px 30px 0 30px;
         display: inline-block;
         margin-left: 30px;
         margin-top: 30px;
@@ -348,15 +375,24 @@ body{
         overflow: auto;
         color: white;
         background-color: rgb(255, 255, 255);
+        z-index: 5;
     }
 
     .sort_btn {
         display: inline-block;
         text-align: center;
         width: 10%;
-        background-color: rgb(172, 172, 172);/*色仮置き 最終的に白*/
+        background-color: rgb(255, 255, 255);/*色仮置き 最終的に白*/
         padding: 10px 10px 3.5px 10px;
         margin-left: 5px;
+        color: black;
+        z-index: 5;
+        cursor: pointer;
+    }
+    
+    .active {
+        background-color: black;
+        color: white;
     }
     .profiles{
         display: none;
@@ -395,8 +431,8 @@ body{
         position: fixed;
         bottom: 30px;
         right: 30px;
-        width: 120px;
-        height: 120px;
+        width: 80px;
+        height: 80px;
         background-color: black;
         color: white;
         z-index: 5;
@@ -405,8 +441,8 @@ body{
     .top_text {
         display: inline-block;
         text-align: center;
-        width: 120px;
-        line-height: 120px;
+        width: 80px;
+        line-height: 80px;
     }
 
 }
