@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
+        <meta name=viewport content="max-width=1024">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <meta charset="utf-8">
         <title>Hayase_plof</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="animate.min.css">
     </head>
 
 
@@ -56,69 +63,45 @@
 
         <div id="page_top" class="top_btn"><a href="#" class="top_text">TOP</a></div>
 
-        <div  class="illust_heading">
+        <div  class="illust_heading" >
             <div></div>
             <h2>Works</h2><!--アイコン図形の画像挿入-->
-            <a class="sort_btn all_illust">all</a>
-            <a class="sort_btn original">original</a>
-            <a class="sort_btn derivative">fanart</a>
+            <a class="active sort_btn" class="box" id="all_btn">all</a>
+            <a class="sort_btn" class="box" id="ori_btn">original</a>
+            <a class="sort_btn" class="box" id="fan_btn">fanart</a>
         </div>
 
-        <div class="illusts_wrap"> 
+        <div class="illusts_wrap" > 
             <div class="illusts_wrap_a" >
-                <div class="item_b">
-                    <img src="fes2.png" width="100%" alt="">
+                <div class="item_b" >
+                    <img src="fes2.png" class="orig" width="100%" alt="">
                 </div>
                 <div class="item_a">
-                    <img src="1115light.png"width="100%" alt="">
+                    <img src="1115light.png" class="fan" width="100%" alt="">
                 </div>
                 <div class="item_b">
-                    <img src="CHARACTERS.png"width="100%" alt="">
+                    <img src="CHARACTERS.png" class="orig" width="100%" alt="">
                 </div>
                 <div class="item_b">
-                    <img src="yuki3.png" width="100%" alt="">
-                </div>
-                <div class="item_b">
-
-                </div>
-                <div class="item_a">
-
-                </div>
-                <div class="item_b">
-
-                </div>
-                <div class="item_a">
-
+                    <img src="yuki3.png" class="fan" width="100%" alt="">
                 </div>
             </div>
             <div class="illusts_wrap_b" >
                 <div class="item_a">
-                    <img src="0224light.png" width="100%" alt="">
+                    <img src="0224light.png" class="fan" width="100%" alt="">
                 </div>
                 <div class="item_a">
-                    <img src="1101.png"width="100%" alt="">
+                    <img src="1101.png" class="orig" width="100%" alt="">
                 </div>
                 <div class="item_b">
-                    <img src="junction 0418.jpg" width="100%" alt="">
-                </div>
-                <div class="item_a">
-
-                </div>
-                <div class="item_b">
-
-                </div>
-                <div class="item_b">
-
-                </div>
-                <div class="item_a">
-
-                </div>
-                <div class="item_a">
-
+                    <img src="junction 0418.jpg" class="orig" width="100%" alt="">
                 </div>
             </div>
         </div>
 
         <script src="script.js"></script>
+        <script src="jquery.min.js"></script>
+        <script src="scrolla.jquery.min.js"></script>
+        <script src="/dist/js/jquery-scrolla.min.js"></script>
     </body>
 </html>
