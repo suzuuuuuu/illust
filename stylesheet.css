@@ -127,6 +127,7 @@ a{
     .side_menue {
         writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
+        white-space: nowrap;
         text-orientation: sideways;
         background-color: black;
         color: rgb(255, 255, 255);
@@ -341,6 +342,7 @@ body{
         writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
         text-orientation: sideways;
+        white-space: nowrap;
         background-color: black;
         color: rgb(255, 255, 255);
         font-size: 25px;
