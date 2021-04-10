@@ -9,6 +9,10 @@ a{
     color: rgb(255, 255, 255);
 }
 
+body{
+    min-width: 1092px;
+}
+
 
 @media screen and (max-width:749px){
     .main_wrap{
