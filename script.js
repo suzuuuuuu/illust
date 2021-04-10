@@ -32,22 +32,30 @@ $(function(){
         }
     });
 
-    $(function(){
-        var pagetop = $('#page_top');
-        // ボタン非表示
-        pagetop.hide();
-      
-        // 100px スクロールしたらボタン表示
-        $(window).scroll(function () {
-           if ($(this).scrollTop() > 100) {
-                pagetop.fadeIn();
-           } else {
-                pagetop.fadeOut();
-           }
-        });
-        pagetop.click(function () {
-           $('body, html').animate({ scrollTop: 0 }, 500);
-           return false;
-        });
-      });
+    $('#all_btn').click(function() {
+        $('#all_btn').addClass('active');
+        $('#ori_btn').removeClass('active');
+        $('#fan_btn').removeClass('active');
+        $('.fan').fadeIn();
+        $('.orig').fadeIn();
     });
+
+    $('#ori_btn').click(function() {
+        $('#ori_btn').addClass('active');
+        $('#all_btn').removeClass('active');
+        $('#fan_btn').removeClass('active');
+        $('.orig').fadeIn();
+        $('.fan').fadeOut();
+    });
+
+    $('#fan_btn').click(function() {
+        $('#fan_btn').addClass('active');
+        $('#ori_btn').removeClass('active');
+        $('#all_btn').removeClass('active');
+        $('.fan').fadeIn();
+        $('.orig').fadeOut();
+    });
+    
+
+
+});
