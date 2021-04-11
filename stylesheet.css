@@ -16,7 +16,7 @@ body {
     text-size-adjust: 100%;
 }
 
-@media screen and (max-width:749px){
+@media screen and (max-width:959px){
     .main_wrap{
         height:300px;
         background-image: url(fes_top.png);
@@ -254,10 +254,7 @@ body {
     }
 }
 
-@media(min-width:750px){
-    body{
-    min-width: 1092px;
-    }
+@media(min-width:960px){
     .main_wrap{
         height: 100vh;
         background-image: url(fes_top.png);
