@@ -8,6 +8,13 @@ a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+body {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
 
 @media screen and (max-width:749px){
     .main_wrap{
