@@ -9,10 +9,9 @@ a{
     color: rgb(255, 255, 255);
 }
 
-
 @media screen and (max-width:749px){
     .main_wrap{
-        height: 500px;
+        height:300px;
         background-image: url(fes_top.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -34,6 +33,10 @@ a{
         color: black;
         z-index: 5;
         cursor: pointer;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px
     }
 
     .move{
@@ -50,8 +53,9 @@ a{
     
 
     .illusts_wrap{
-        margin-left: 35px;
         background-color: rgb(255, 255, 255);
+        width: 95%;
+        margin: 0 auto;
     }   
     
     .profiles ul{
@@ -59,26 +63,32 @@ a{
     }
     .req_about{
         position: fixed;
-        top: 10%;
-        left: 14%;
-        width: 80vw;
+        top: 15%;
+        left: 7%;
+        width: 86vw;
         height: 50vh;
     }
-        
-
+    .req_text{
+        margin-left: 5%;
+        width: 90%;
+    }
 
     header {
         background: -moz-linear-gradient(top,rgba(82, 82, 82, 0.6), rgba(200,200,200,0.01));
         background: -webkit-linear-gradient(top, rgba(82, 82, 82, 0.6), rgba(200,200,200,0.01));
         background: linear-gradient(to bottom, rgba(82, 82, 82, 0.6), rgba(200,200,200,0.01));
         position: fixed;
+        top: 30px;
         width: 100vw;
         height: 70px;
-        padding-left: 35px;
         text-align: right;
         line-height: 70px;
         font-size: 13px;
-        z-index: 10;
+        z-index: 9;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
     }
     .contact_btn {
         margin-right: 7px;
@@ -93,13 +103,43 @@ a{
     }
 
     .req_about {
-        background-color:rgba(255, 255, 255, 0.7);
+        background-color:rgba(255, 255, 255, 0.9);
         color: rgb(17, 17, 17);
         text-align: center;
         display: none;
         z-index:10;
+        
     }
-    
+     .req_about h1{
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 26px;
+        border: 2px solid;
+        padding:5px 40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: inline-block;
+        margin-top: 70px;
+     }
+
+     .req_about h2{
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+     }
+
+     .req_about p{
+        padding-top: 20px;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
+    }
+    .mail{
+        margin-top:40px;
+    }
     .close_container {
         position: fixed;
         width: 100vw;
@@ -108,38 +148,31 @@ a{
     }
     
     
-    
-
-    .req_heading h1{
-        display: inline-block;
-        margin-top: 70px;
-        padding:10px;
-    }
-
     .side_menue {
-        writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
-        white-space: nowrap;
-        text-orientation: sideways;
         background-color: black;
         color: rgb(255, 255, 255);
         font-size: 25px;
-        line-height: 35px;
-        height:100vh;
-        width:35px;
+        line-height: 40px;
+        height:40px;
+        width:100%;
         position: fixed;
-        z-index: 9;
+        z-index: 10;
         float: left;
     }
     .side_menue p{
         font-weight: normal;
         font-size: 18px;
-        margin-top:7%;
+        margin-left:25px;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
     }
-    .side_menue span{
-        margin-top: 40px;
-        font-size: 18px;
-    cursor: pointer;
+    .prof_open{
+        margin-right: 20px;
+        float: right;
+        font-size: 16px;
+        line-height: 45px;
     }
     .illust_heading h2{
         padding: 10px 10px 0 10px;
@@ -147,11 +180,13 @@ a{
         margin-left: 20px;
         margin-top: 30px;
         background-color: black;
+        font-family: futura-pt, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        padding-bottom: 5px;
     }
     .illust_heading {
         height: 100px;
-        width: 100vw;
-        overflow: auto;
         color: white;
         background-color: rgb(255, 255, 255);
         font-size: 18px;
@@ -164,21 +199,24 @@ a{
         width: 500px;
         position: absolute;
         top: 0;
-        left: 35px;
         height: 100vh;
         background-color:rgba(0, 0, 0, 0.99);
         color: white;
-        z-index: 9;
+        z-index: 10;
         writing-mode: horizontal-tb;
-        font-size: 13px;
-    }
-    .profiles h1{
-        margin-top: 100px;
-        font-weight: normal;
+        padding-left: 30px;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
     .name{
         margin-top:100px;
-        font-weight:normal;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .name_en{
+        font-size: 15px;
     }
     .close_btn {
         background-color: rgb(255, 255, 255);
@@ -196,6 +234,10 @@ a{
         background-color: black;
         color: white;
         z-index: 5;
+        font-family: futura-pt, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 17px;
     }
     .top_text {
         display: inline-block;
@@ -206,9 +248,9 @@ a{
 }
 
 @media(min-width:750px){
-body{
+    body{
     min-width: 1092px;
-}
+    }
     .main_wrap{
         height: 100vh;
         background-image: url(fes_top.png);
@@ -249,10 +291,10 @@ body{
     }
     .req_about{
         position: fixed;
-        top: 10%;
-        left: 10%;
-        width: 80vw;
-        height: 80vh;
+        top: 15%;
+        left: 15%;
+        width: 70vw;
+        height: 70vh;
     }
     header {
         background: -moz-linear-gradient(top,rgba(82, 82, 82, 0.6), rgba(200,200,200,0.01));
@@ -264,8 +306,12 @@ body{
         padding-left: 70px;
         text-align: right;
         line-height: 70px;
-        font-size: large;
         z-index: 7;
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size:18px;
+
     }
     .contact_btn {
         margin-right: 20px;
@@ -278,8 +324,8 @@ body{
         cursor: pointer;
     }
     .req_about {
-        background-color:rgba(255, 255, 255, 0.7);
-        color: rgb(17, 17, 17);
+        background-color:rgba(255, 255, 255, 0.8);
+        color: rgb(0, 0, 0);
         text-align: center;
         display: none;
         z-index:10;
@@ -293,9 +339,34 @@ body{
     }
     .req_heading h1{
         display: inline-block;
-        margin-top: 70px;
-        border: 3px solid;
-        padding:10px;
+        margin-top: 100px;
+        border: 2px solid;
+        padding:10px 50px;
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+
+
+    }
+
+    .req_about h2 {
+        margin-top: 30px;
+        padding-bottom: 10px;
+        font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .req_about p{
+        padding-top: 20px;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    .mail {
+        margin-top: 60px;
     }
     .side_menue {
         writing-mode: vertical-rl;
@@ -319,10 +390,13 @@ body{
         font-weight: normal;
         font-size: 20px;
         margin-top:7%;
+        font-family: futura-pt, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
     }
     .side_menue span{
         margin-top: 40px;
-    cursor: pointer;
     }
     .illust_heading h2{
         padding: 10px 30px 0 30px;
@@ -330,6 +404,10 @@ body{
         margin-left: 30px;
         margin-top: 30px;
         background-color: black;
+        font-family: futura-pt, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 32px;
     }
     .illust_heading {
         height: 100px;
@@ -349,6 +427,10 @@ body{
         color: black;
         z-index: 5;
         cursor: pointer;
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
     }
     .active {
         background-color: black;
@@ -359,7 +441,8 @@ body{
         cursor: pointer;
     }
     .profiles ul{
-        width: 700px;
+        padding-left: 15px;
+        width: 400px;
         position: absolute;
         top: 0;
         left: 70px;
@@ -368,15 +451,18 @@ body{
         color: white;
         z-index: 10;
         writing-mode: horizontal-tb;
-        font-size: 15px;
-    }
-    .profiles h1{
-        margin-top: 100px;
-        font-weight: normal;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
     .name{
         margin-top:100px;
-        font-weight:normal;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .name_en{
+        font-size: 15px;
     }
     .close_btn {
         background-color: rgb(255, 255, 255);
@@ -390,15 +476,19 @@ body{
         bottom: 30px;
         right: 30px;
         width: 80px;
-        height: 80px;
+        height: 60px;
         background-color: black;
         color: white;
         z-index: 5;
+        font-family: futura-pt-bold, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
     }
     .top_text {
         display: inline-block;
         text-align: center;
         width: 80px;
-        line-height: 80px;
+        line-height: 60px;
     }
 }
