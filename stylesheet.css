@@ -16,6 +16,11 @@ body {
     text-size-adjust: 100%;
 }
 
+.text_plof{
+    margin: 50px 30% 0 7%;
+    font-size: 16px;
+}
+
 @media screen and (max-width:959px){
     .main_wrap{
         height:300px;
@@ -80,6 +85,35 @@ body {
         width: 90%;
     }
 
+    .toiawase_box  {
+        margin-top: 15px;
+    }
+
+    .toiawase{
+        background-color: rgb(117, 117, 117);
+        z-index:13;
+        padding: 5px 41px ;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+    }
+
+    .mail {
+        margin-top: 60px;
+        border-bottom: 2px solid;
+        z-index:10;padding-top: 20px;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 17px;
+        color: rgb(0, 0, 0);
+
+    }
+    .mail_box{
+        margin-top: 70px;
+    }
+
     header {
         background: -moz-linear-gradient(top, rgba(17, 17, 17, 0.6), rgba(200,200,200,0.01));
         background: -webkit-linear-gradient(top,  rgba(17, 17, 17, 0.6), rgba(200,200,200,0.01));
@@ -103,7 +137,7 @@ body {
         border-right:2px solid;
         padding: 2px 6px;
     }
-
+ 
     .req {
         margin-right: 10px;
         cursor: pointer;
@@ -144,9 +178,6 @@ body {
         font-style: normal;
         font-size: 14px;
     }
-    .mail{
-        margin-top:25px;
-    }
     .close_container {
         position: fixed;
         width: 100vw;
@@ -175,6 +206,12 @@ body {
         font-style: normal;
         font-size: 20px;
     }
+    
+    .text_plof{
+        margin: 50px 30% 0 7%;
+        font-size: 16px;
+    }
+
     .prof_open{
         margin-right: 20px;
         float: right;
@@ -252,6 +289,9 @@ body {
         width: 60px;
         line-height: 60px;
     }
+    .text_plof br {
+        display: none;
+    }
 }
 
 @media(min-width:960px){
@@ -326,6 +366,37 @@ body {
         border-right:2px solid;
         padding: 2px 6px;
     }
+
+
+    .toiawase_box  {
+        margin-top: 15px;
+    }
+
+    .toiawase{
+        background-color: rgb(117, 117, 117);
+        z-index:13;
+        padding: 5px 71px ;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+    .mail {
+        margin-top: 60px;
+        border-bottom: 2px solid;
+        z-index:10;padding-top: 20px;
+        font-family: a-otf-ud-reimin-pr6n, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+
+    }
+    .mail_box{
+        margin-top: 70px;
+    }
+
     .req {
         margin-right: 40px;
         cursor: pointer;
@@ -372,9 +443,6 @@ body {
         font-size: 20px;
     }
 
-    .mail {
-        margin-top: 60px;
-    }
     .side_menue {
         writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
@@ -448,10 +516,10 @@ body {
     }
     .profiles ul{
         padding-left: 15px;
-        width: 400px;
+        width: 450px;
         position: absolute;
         top: 0;
-        left: 70px;
+        left: 5%;
         height: 100%;
         background-color:rgba(0, 0, 0, 0.99);
         color: white;
@@ -460,12 +528,20 @@ body {
         font-family: a-otf-ud-reimin-pr6n, sans-serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 14px;
+        font-size: 15px;
+        
+        line-height: 45px;
+    }
+    .tools{
+        margin-bottom: 10px;
     }
     .name{
         margin-top:100px;
         margin-bottom: 20px;
-        font-size: 18px;
+        font-size: 19px;
+        border-bottom: 1px solid;
+        display: inline-block;
+        line-height: 30px;
     }
     .name_en{
         font-size: 15px;
@@ -496,5 +572,13 @@ body {
         text-align: center;
         width: 80px;
         line-height: 60px;
+    }
+    
+    .text_plof{
+        display: inline-block;
+        line-height: 23px;
+        width: 150px;
+        margin: 60px 80% 50% 1%;
+        font-size: 14px;
     }
 }
