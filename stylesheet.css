@@ -90,7 +90,9 @@ body {
     }
 
     .toiawase{
-        background-color: rgb(117, 117, 117);
+        background-color: rgb(169, 225, 168);
+        border-bottom: 3px solid rgb(78, 173, 77);
+        border-right: 3px solid rgb(76, 172, 74);
         z-index:13;
         padding: 5px 41px ;
         font-family: a-otf-ud-reimin-pr6n, sans-serif;
@@ -373,7 +375,9 @@ body {
     }
 
     .toiawase{
-        background-color: rgb(117, 117, 117);
+        background-color: rgb(169, 225, 168);
+        border-bottom: 3px solid rgb(78, 173, 77);
+        border-right: 3px solid rgb(76, 172, 74);
         z-index:13;
         padding: 5px 71px ;
         font-family: a-otf-ud-reimin-pr6n, sans-serif;
